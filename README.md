@@ -1,2 +1,3 @@
 # fitness777-scraper
 A script for scraping public user data off fitness777.mk
+When run the data collected will be stored in a .csv file in the same directory as the script under "data"
