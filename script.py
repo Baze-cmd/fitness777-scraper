@@ -6,13 +6,13 @@ import os
 #URL for the POST request
 URL = "https://fitness777.mk/validate.php"
 #check for IDs from 0 up to maxID
-maxID = 1000
+maxID = 2000
 #variables to help finish the program sooner when there has been alot of consecutive invalid IDs
 maxNumOfConsecutiveNULLs = 100
 numOfConsecutiveNULLs = 0
 #number of seconds between each post request,
 #the lower it is the faster the program will finish
-pauseTimeInterval = 1.0
+pauseTimeInterval = 0
 # Path to your CSV file (it is in the same directory as the script)
 csv_file_path = os.getcwd() + "\\data.csv"
 
